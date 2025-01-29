@@ -1,0 +1,23 @@
+.section.hero-container .hero {height: 100vh;}
+header.header-wrapper {
+    height: auto;
+
+    .nav-wrapper {
+        background-color: transparent;
+
+        &.scrolled {
+            background-color: #ffffff;
+            .section.nav-sections {
+                filter: unset;
+            }
+        }
+    }
+    .section.nav-sections {
+        filter: invert(1); /* Inverts the colors completely */
+    }
+    .section.nav-brand {
+        img {
+            width: 60px;
+        }
+    }
+}
